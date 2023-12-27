@@ -19,3 +19,14 @@ Advanced:
 2. try to  use AutoMapper to map entities to dtos.
 https://github.com/JauniusPinelis/.NET-Academy-2023-Adform
 
+
+Homework:
+	
+Use Fluent Assertions. Add Mock Verify to your tests. Use Autofixture for data generation. Autofixture.xunit2 has AutoData attribute.
+	
+Add new User Controller which performs GET, GET By Id, and Create to https://jsonplaceholder.typicode.com/users
+	
+Cover GetById with a unit tests.
+	
+	Optional, advanced: Have basic data caching for the system (Fetch data and save into database)
+
