@@ -55,7 +55,7 @@ builder.Services.AddDbContext<DataContext>(o => o.UseNpgsql(dbConnectionString))
 //Console.WriteLine("Success!");
 //Console.ResetColor();
 
-
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
